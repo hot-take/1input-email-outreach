@@ -1,0 +1,30 @@
+# Environment configurations
+.env
+
+# Local SQLite databases
+outreach_history.db
+
+# Logs
+outreach_pipeline.log
+*.log
+
+# Python bytecode and caches
+__pycache__/
+*.pyc
+*.pyo
+*.pyd
+.pytest_cache/
+
+# Virtual Environments
+venv/
+.venv/
+env/
+
+# Editor and IDE settings
+.vscode/
+.idea/
+*.suo
+*.ntvs*
+*.njsproj
+*.sln
+*.swp
