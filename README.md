@@ -30,7 +30,7 @@ graph TD
 ## Project Structure
 
 ```text
-g:\subspace\
+.
 ├── config/
 │   └── settings.py          # Handles config validation (python-dotenv)
 ├── core/
@@ -58,7 +58,8 @@ Ensure you have Python 3.8+ installed.
 
 ```bash
 # Clone the repository and navigate into the workspace
-cd g:\subspace
+git clone https://github.com/hot-take/1input-email-outreach.git
+cd 1input-email-outreach
 
 # Create a virtual environment
 python -m venv venv
